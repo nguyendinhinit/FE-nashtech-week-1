@@ -1,0 +1,36 @@
+.menu-bar {
+  width: 100%;
+  height: 100px;
+}
+.top-menu {
+  font-family: Montserrat;
+  font-size: 20px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #f2f2f2;
+  float: right;
+  margin: 5% 14%;
+}
+ul li {
+  display: inline-block;
+  text-transform: uppercase;
+  margin: 0px 29px 0 0;
+}
+.logo {
+  background-image: url('./dist/static/image/logo.svg');
+  width: 177px;
+  height: 20px;
+  margin: 5% 0px 0px 250px;
+  object-fit: contain;
+  display: inline-block;
+}
+.menu-inline {
+  padding: 25px 25px;
+  border: 25px 25px;
+}
+.top-menu ul li a {
+  color: #f2f2f2;
+}
