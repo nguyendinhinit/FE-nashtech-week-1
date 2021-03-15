@@ -277,6 +277,11 @@ p.up {
   height: 400px;
 }
 
+.requirement__form input {
+  background-color: #ededed;
+  border: none;
+}
+
 .requirement__form h4 {
   color: #888888;
   text-transform: uppercase;
