@@ -271,7 +271,6 @@ p.up {
 
 .requirement__form {
   margin: 0 0 0 0;
-  display: inline-block;
   padding: 3% 14% 0px 14%;
   width: 50%;
   height: 400px;
@@ -286,6 +285,11 @@ p.up {
   color: #888888;
   text-transform: uppercase;
   font-size: 24px;
+  text-align: right;
+}
+
+.requirement__form h4.left {
+  text-align: left;
 }
 
 .requirement__form p {
@@ -293,6 +297,13 @@ p.up {
   font-size: 20px;
   margin-top: 5%;
   margin-bottom: 5%;
+  text-align: right;
+}
+
+.requirement__form p.left {
+  text-align: left;
+  font-size: 24px;
+  font-weight: 700;
 }
 
 .requirement__form__1 {
@@ -304,10 +315,15 @@ p.up {
   width: 100%;
 }
 
+.test .address h4 {
+  float: right;
+}
+
 input {
   height: 50px;
   width: 48%;
   margin: 0 1% 0 0;
+  border-radius: 5px;
 }
 
 input.message {
@@ -322,5 +338,6 @@ input.message {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  font-family: Montserrat;
 }
 /*# sourceMappingURL=main.css.map */

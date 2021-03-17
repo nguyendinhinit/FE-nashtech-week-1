@@ -66,7 +66,7 @@ p.up{
   }
   &__form{
     margin: 0 0 0 0;
-    display: inline-block;
+    // display: inline-block;
     padding: 3% 14% 0px 14%;
     width: 50%;
     height: 400px;
@@ -78,12 +78,22 @@ p.up{
       color: #888888;
       text-transform: uppercase;
       font-size: 24px;
+      text-align: right;
+      &.left{
+        text-align: left;
+      }
     }
     p{
       text-transform: uppercase;
       font-size: 20px;
       margin-top: 5%;
       margin-bottom: 5%;
+      text-align: right;
+      &.left{
+        text-align: left;
+        font-size: 24px;
+        font-weight: 700;
+      }
     }
     &__1{
       font-size: 24px;
@@ -93,12 +103,18 @@ p.up{
 }
 .test{
   width: 100%;
+  .address{
+    h4{
+      float: right;
+    }
+  }
 }
 
 input{
   height: 50px;
   width: 48%;
   margin: 0 1% 0 0;
+  border-radius: 5px;
 }
 input.message{
   width: 98%;
@@ -109,5 +125,6 @@ input.message{
   width: 100%;
   height: auto;
   display: flex;
+  font-family: $font;
 }
 
