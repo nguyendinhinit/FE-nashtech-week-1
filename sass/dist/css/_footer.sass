@@ -1,0 +1,33 @@
+@use 'mixin'
+
+.footer
+ margin: 5% 5%
+ padding: 0
+ &__inner
+  width: 100%
+  margin: 0
+  display: inline-flex
+  span
+   @include mixin.setfont(Roboto,14px,400,45px,left)
+   color: #686868
+  p
+   color: #a1a1a1
+   @include mixin.setfont(Roboto,14px,400,45px,left)
+ .filter
+  background-color: #f34d4f
+  @include mixin.circle(40px)
+  object-fit: none
+ .menuicon
+  background-color: #ffffff
+  @include mixin.circle(40px)
+  object-fit: none
+ .comment
+  background-color: #3f3f3f
+  @include mixin.circle(40px)
+  object-fit: none
+#company
+ margin-left: 20px
+#page
+ margin-left: 43%
+#comment
+ margin-left: auto

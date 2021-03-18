@@ -1,42 +1,117 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="main.css" />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.15.2/css/all.css"
+      integrity="sha384-vSIIfh2YWi9wW0r9iZe7RJPrKwp6bG+s9QZMoITbCckVJqGCCRhc+ccxNcdpHuYu"
+      crossorigin="anonymous"
+    />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
 
-<head>
-  <meta charset="UTF-8" />
-  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Document</title>
-  <link rel="stylesheet" href="main.css" />
-  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.2/css/all.css"
-    integrity="sha384-vSIIfh2YWi9wW0r9iZe7RJPrKwp6bG+s9QZMoITbCckVJqGCCRhc+ccxNcdpHuYu" crossorigin="anonymous">
-</head>
-
-<body>
-  <div class="header">
-    <div class="header__inner">
-      <div class="logo">
-        <img class="logo__site" src="./dist/image/logo.svg" alt="" />
-      </div>
-      <div class="devider"></div>
-      <div class="menu">
-        <ul>
-          <li>Men</li>
-          <li>Women</li>
-          <li>Boys</li>
-          <li>Girls</li>
-          <li>Kids</li>
-        </ul>
-      </div>
-      <div class="menu__left">
-        <i class="fas fa-shopping-cart"></i>
-        <p>Cart</p>
-        <i class="fas fa-search"></i>
-        <img src="./dist/image/layer-1.jpg" alt="">
-        <p>Robert</p>
-        <i class="fas fa-sort-down"></i>
+  <body>
+    <div class="header">
+      <div class="header__inner">
+        <div class="logo">
+          <img class="logo__site" src="./dist/image/logo.svg" alt="" />
+        </div>
+        <div class="devider"></div>
+        <div class="menu">
+          <ul>
+            <li class="item">Men</li>
+            <li class="item">Women</li>
+            <li class="item">Boys</li>
+            <li class="item">Girls</li>
+            <li class="item">Kids</li>
+          </ul>
+        </div>
+        <div class="menu__left">
+          <i class="fas fa-shopping-cart"></i>
+          <p>Cart</p>
+          <i class="fas fa-search"></i>
+          <img src="./dist/image/layer-1.jpg" alt="" />
+          <p>Robert</p>
+          <i class="fas fa-sort-down"></i>
+        </div>
       </div>
     </div>
-  </div>
-</body>
-
+    <div class="page">
+      <div class="page__content">
+        <div class="product">
+          <div class="product__view">
+            <img src="./dist/image/product-2.png" alt="" />
+          </div>
+          <div class="product__details">
+            <div class="product__details__img">
+              <img src="./dist/image/product-1.png" alt="" />
+            </div>
+            <div class="product__details__info">
+              <p>
+                <span class="product__details__info--phoenix">Phoenix</span>
+                Salomon Max
+              </p>
+              <div class="container">
+                <p class="title">Life style T-shirt</p>
+                <i class="fas fa-star first star"></i>
+                <i class="fas fa-star star"></i>
+                <i class="fas fa-star star"></i>
+                <i class="fas fa-star star"></i>
+                <i class="fas fa-star"></i>
+                <p>(9)</p>
+              </div>
+              <div class="container">
+                <p class="price">$ 75.00</p>
+                <i class="fas fa-check-square star cart"></i>
+                <i class="fas fa-reply flip share"></i>
+              </div>
+            </div>
+          </div>
+          <div class="product__view">
+            <img src="./dist/image/product-3.png" alt="" />
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="footer">
+      <div class="container">
+        <div class="footer__inner">
+          <img class="filter" src="./dist/image/filter.png" alt="" />
+        </div>
+      </div>
+    </div>
+    <div class="footer">
+      <div class="container">
+        <div class="footer__inner">
+          <img
+            class="menuicon"
+            src="./dist/image/bottom-menu-icon.png"
+            alt=""
+          />
+          <p id="company"><span>Phoenix</span> Inc.</p>
+          <p id="page"><span>21</span>/34</p>
+          <img
+            class="comment"
+            id="comment"
+            src="./dist/image/comment.png"
+            alt=""
+          />
+        </div>
+      </div>
+    </div>
+    <div class="background">
+      Phoenix <br />
+      Salomon <br />
+      Max
+    </div>
+  </body>
 </html>

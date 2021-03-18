@@ -1,3 +1,18 @@
 @mixin whset($w,$h)
- width: $w
- height: $h
+  width: $w
+  height: $h
+
+@mixin setfont($fontfamily,$fontsize,$fontweight,$lineheight,$text-align)
+  font-family: $fontfamily
+  font-size: $fontsize
+  font-weight: $fontweight
+  font-stretch: normal
+  font-style: normal
+  line-height: 1.6
+  letter-spacing: normal
+  text-align: $text-align
+
+@mixin circle($radius)
+  width: $radius
+  height: $radius
+  border-radius: 50%

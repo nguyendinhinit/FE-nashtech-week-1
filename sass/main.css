@@ -38,12 +38,14 @@ body {
 }
 
 .menu {
-  width: 50%;
+  width: 30%;
   height: 100%;
 }
 .menu ul {
   display: inline-flex;
-  margin: 0;
+  justify-content: space-between;
+  align-content: center;
+  margin: 70px 0 0 0;
   padding: 0;
   width: 100%;
   height: 100%;
@@ -55,23 +57,22 @@ body {
   text-align: inherit;
 }
 .menu__left {
-  width: 40%;
-  height: 100%;
+  height: auto;
   position: absolute;
   right: 0;
   display: inline-flex;
-  margin-top: 65px;
+  margin-top: 70px;
 }
 .menu__left img {
   width: 40px;
   height: 40px;
   border-radius: 50%;
-  margin: 0 20px;
+  margin: 0 10px 0 10px;
   margin-top: -10px;
 }
 .menu__left p {
   font-size: 14px;
-  margin: 0 30px;
+  margin: 0 30px 0 0;
 }
 .menu__left i {
   margin: 0 10px;
@@ -86,6 +87,202 @@ body {
   height: 30px;
   margin: 65px 40px 0px 41px;
   background-color: #cccccc;
+}
+
+.page {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  border: none;
+  position: relative;
+}
+.page__content {
+  margin: 0 5%;
+}
+
+.product {
+  width: 100%;
+  height: auto;
+  display: inline-flex;
+}
+.product__view {
+  width: 25%;
+  height: auto;
+  margin-top: 213px;
+}
+.product__view img {
+  opacity: 0.5;
+}
+.product__details {
+  width: 50%;
+  height: auto;
+  margin-top: 113px;
+  display: inline-flex;
+}
+.product__details__img {
+  width: auto;
+  height: auto;
+}
+.product__details__info {
+  width: 60%;
+  height: auto;
+  margin-top: 100px;
+  margin-left: 50px;
+}
+.product__details__info--phoenix {
+  color: #f36d4f;
+  font-family: GothamPro;
+  font-size: 20px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.6;
+  letter-spacing: normal;
+  text-align: left;
+}
+.product__details__info p {
+  font-family: GothamPro;
+  font-size: 20px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.6;
+  letter-spacing: normal;
+  text-align: left;
+  color: #3f3f3f;
+  margin: 19px 0 0 0;
+}
+
+.container {
+  width: 100%;
+  height: auto;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+.container i {
+  margin-left: 5px;
+  margin-top: 26px;
+  height: auto;
+}
+.container .star {
+  color: #f36d4f;
+}
+.container .first {
+  margin-left: 94px;
+}
+.container .title {
+  font-family: Roboto;
+  font-size: 14px;
+  font-weight: 300;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.6;
+  letter-spacing: normal;
+  text-align: left;
+  margin: 27px 0 0 0;
+}
+.container .price {
+  width: 30%;
+}
+.container .flip {
+  -webkit-transform: scaleX(-1);
+  transform: scaleX(-1);
+}
+.container .cart {
+  font-size: 30px;
+  margin-top: 20px;
+}
+.container .share {
+  border-radius: 4px;
+  background-color: white;
+  padding: 6px;
+  margin-left: 20px;
+}
+
+.footer {
+  margin: 5% 5%;
+  padding: 0;
+}
+.footer__inner {
+  width: 100%;
+  margin: 0;
+  display: inline-flex;
+}
+.footer__inner span {
+  font-family: Roboto;
+  font-size: 14px;
+  font-weight: 400;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.6;
+  letter-spacing: normal;
+  text-align: left;
+  color: #686868;
+}
+.footer__inner p {
+  color: #a1a1a1;
+  font-family: Roboto;
+  font-size: 14px;
+  font-weight: 400;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.6;
+  letter-spacing: normal;
+  text-align: left;
+}
+.footer .filter {
+  background-color: #f34d4f;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  object-fit: none;
+}
+.footer .menuicon {
+  background-color: #ffffff;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  object-fit: none;
+}
+.footer .comment {
+  background-color: #3f3f3f;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  object-fit: none;
+}
+
+#company {
+  margin-left: 20px;
+}
+
+#page {
+  margin-left: 43%;
+}
+
+#comment {
+  margin-left: auto;
+}
+
+.background {
+  position: absolute;
+  width: 100%;
+  height: auto;
+  font-size: 100px;
+  color: #a1a1a1;
+  top: 100px;
+  z-index: -1;
+  opacity: 0.1;
+  font-family: Roboto;
+  font-size: 340px;
+  font-weight: 900;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.6;
+  letter-spacing: normal;
+  text-align: left;
+  line-height: 0.8;
 }
 
 /*# sourceMappingURL=main.css.map */

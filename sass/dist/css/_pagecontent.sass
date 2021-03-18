@@ -1,0 +1,71 @@
+@use 'mixin'
+
+.page
+  width: 100%
+  margin: 0
+  padding: 0
+  border: none
+  position: relative
+  &__content
+    margin: 0 5%
+
+.product
+  width: 100%
+  height: auto
+  display: inline-flex
+  &__view
+    width: 25%
+    height: auto
+    margin-top: 213px
+    img
+      opacity: 0.5
+  &__details
+    width: 50%
+    height: auto
+    margin-top: 113px
+    display: inline-flex
+    &__img
+      width: auto
+      height: auto
+    &__info
+      width: 60%
+      height: auto
+      margin-top: 100px
+      margin-left: 50px
+      &--phoenix
+        color: #f36d4f
+        @include mixin.setfont(GothamPro,20px,bold,1.6,left)
+      p
+        @include mixin.setfont(GothamPro,20px,bold,1.6,left)
+        color: #3f3f3f
+        margin: 19px 0 0 0
+.container
+  width: 100%
+  height: auto
+  margin: 0
+  padding: 0
+  display: flex
+  i
+    margin-left: 5px
+    margin-top: 26px
+    height: auto
+  .star
+    color: #f36d4f
+  .first
+    margin-left: 94px
+  .title
+    @include mixin.setfont(Roboto,14px,300,2.29, left)
+    margin: 27px 0 0 0
+  .price
+    width: 30%
+  .flip
+    -webkit-transform: scaleX(-1)
+    transform: scaleX(-1)
+  .cart
+    font-size: 30px
+    margin-top: 20px
+  .share
+    border-radius: 4px
+    background-color: white
+    padding: 6px
+    margin-left: 20px
