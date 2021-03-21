@@ -13,6 +13,27 @@
   width: 100%
   height: auto
   display: inline-flex
+  &__focus
+    width: 100%
+    display: inline-flex
+
+    &__img
+      margin: 10% 0 0 0
+      display: inline-flex
+      width: 50%
+      height: 280px
+      img
+        margin-left: auto
+    &__details
+      width: 20%
+      padding-left: 190px
+      margin-top: 4%
+  &__name
+    @include mixin.setfont(GothamPro,20px,bold,1.6,left)
+  &__list
+    padding: 14.5px 5px
+    background-color: white
+    border-radius: 4px
   &__view
     width: 25%
     height: auto
@@ -39,15 +60,22 @@
         @include mixin.setfont(GothamPro,20px,bold,1.6,left)
         color: #3f3f3f
         margin: 19px 0 0 0
+
 .container
   width: 100%
   height: auto
   margin: 0
   padding: 0
   display: flex
+  .rounded
+    border-radius: 4px
+    border: solid 1px
+    padding: 9px 30px 9px 30px
+    &--customize
+      @extend .rounded
+      padding: 13px 70px
   i
     margin-left: 5px
-    margin-top: 26px
     height: auto
   .star
     color: #f36d4f
@@ -69,3 +97,13 @@
     background-color: white
     padding: 6px
     margin-left: 20px
+    margin-top: 23px
+
+#backicon
+  margin: 80px 0 0 0
+
+.left
+  float: left
+
+.right
+  float: right
